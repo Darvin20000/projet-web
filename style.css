@@ -1,0 +1,187 @@
+body
+{
+	margin:0;
+	padding:0;
+	background-image:url("https://www.archi-wiki.org/images/thumb/4/4d/2_place_Albert_Schweitzer_Strasbourg_10337.jpg/1200px-2_place_Albert_Schweitzer_Strasbourg_10337.jpg")
+}
+header
+{
+	background-image: url("https://media.istockphoto.com/photos/abstract-dark-green-grunge-background-picture-id1178625456?k=20&m=1178625456&s=612x612&w=0&h=zTEgWSV7gnwiMTQz4x6lKrOH_DFx7dRgZjX5WAJwLww=");
+	height: 25vh;
+	display: flex;
+}
+nav
+{
+	border: inset 4px;
+	width: 20%;
+	height: 17%;
+	background-color: black;
+}
+nav a
+{
+	outline: none;
+	background-color: black;
+	display: inline-block;
+	color: white;
+	text-align: center;
+	font-size: 70%;
+	font-family: Verdana;
+	background: black;
+	padding-left:5%;
+	justify-content: center;
+	line-height: 3;
+	text-decoration: none;
+}
+nav a:link, nav a:visited, nav a:focus
+{
+	background: black;
+}
+nav a:hover
+{
+	background: gray;
+	text-decoration: underline; 
+}
+.titre
+{
+	text-align: center;
+	font-family: Arial;
+	font-size: 4em;
+	margin: auto;
+	color: white;
+	display: inline-block;
+}
+.entete
+{
+	margin-top: 1%;
+	margin-left: 1%;
+	margin-bottom: 1%;
+	border: solid #00561B;
+}
+.rien a, .sous, .deroulant
+{
+	text-decoration: none;
+	font-family: Arial;
+	display: inline-block;
+	width: 12.5%;
+	margin-right: 0.625%;
+	text-align: center;
+	line-height: 3;
+	color: white;
+	padding-left: 0;
+}
+li
+{
+	display: outline
+}
+ul
+{
+	padding: 0;
+	width: 100%;
+}
+.sous ul
+{
+	width: 12.5%;
+} 
+footer
+{
+	height: 15%;
+	background-color: gray; 
+	display:flex;
+	text-align: center;
+	justify-content: center;
+	margin-top: 20%;
+}
+.pieddepage 
+{
+	text-decoration: none;
+	display: inline-block;
+	color: white;
+}
+.pieddepage a:link
+{
+	color: green;
+	background-color: gray;
+	text-decoration: none;
+}
+.pieddepage a:hover
+{
+	color: green;
+	text-decoration: underline;
+}
+.deroulant > a::after
+{
+	content:" ▼";
+}
+.rien a:link, .rien a:visited, .rien a:focus, .deroulant a:link
+{
+	background: #BB0B0B;
+}
+.rien a:hover, .deroulant a:hover
+{
+	background: #BB0B0B;
+}
+.sous 
+{
+	display:none;
+	background:#577B9C;
+}
+.deroulant:hover + .sous
+{
+	display:block;
+}
+.sous:hover 
+{
+	display:block;
+}
+.sous a:hover 
+{
+	background: #61E5A9;
+}
+.texte1
+{
+	color: #FFE001;
+	text-align:left;
+	font-family: Verdana;
+	padding-left:20%;
+	margin-top:0;
+}
+form.form-example {
+    display: table;
+}
+
+div.form-example {
+    display: table-row;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
+.image
+{
+	border: purple 3px;
+}
+.ligne1
+{
+	background-color:red;
+}
+div.index
+{
+	border: 3px solid gray;
+	background-color: blue;
+	display:absolute;
+}
+td
+{
+	border: 1px solid black;
+	padding:5px;
+	background-color:white;
+}
+table
+{
+	border-collapse: collapse;
+}
